@@ -3,7 +3,7 @@ let altura = document.querySelector('#alturaField');
 const outDom = document.querySelector('#domOutput');
 
 // MÁSCARA DO INPUT: 'Altura'
-altura.addEventListener('keydown', () => {
+altura.addEventListener('keyup', () => {
     let alturaLength = altura.value.length;
     
     if (alturaLength === 1 ){
